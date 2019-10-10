@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* NAV */
+.nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+}
+.nav nav{
+    display: flex;
+    justify-content: inherit;
+    text-align: inherit;
+}
+.nav ol li{
+    display: inline;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #fff; 
+    justify-content: inherit;
+    text-align: inherit;
+}
+/* BODYPAGE */
+.bodyPage{
+    /* border: 1px solid red; */
+    background-color:black;
+}
+.inputSearch{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    top: -500px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid black;
+    background-image: url(/bedutravel/images/buscar.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    border-radius: 5px;
+}
+.butonSearch{
+    position: relative;
+    width: 200px;
+    height: 36px;
+    top: -501px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+    background: #5A98EB;
+    border-radius: 5px;
+}
+.bodyPage img{
+    object-fit: cover;
+}
+/* FOOTER */
+footer{
+    /* border: 1px solid red; */
+    background-color: black;
+    display: flex;
+    align-content: center;
+    padding-right:20px;
+    justify-content: space-around;
+}
+footer p{
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url(/bedutravel/images/twitter.svg);
+    background-size: 50px 50px;
+}
+.social-link.facebook{
+    background-image: url(/bedutravel/images/facebook.svg);
+    background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url(/bedutravel/images/instagram.svg);
+    background-size: 50px 50px;
+}
