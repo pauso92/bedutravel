@@ -26,9 +26,8 @@
 }
    
   
-  .menu-bedu  {
-  
- 
+  .menu-bedu a {
+    padding-left: 20px;
    text-decoration: none;
    color: white;
   }
@@ -40,9 +39,11 @@
     color: black;
   }
 
-  .logo-image{
-    overflow: hidden;
-    margin-top: -6px;
+  
+    .logo-image {
+      overflow: hidden;
+      margin-top: -6px;
+      padding-right: 791px;
 }
   .header {
     padding: 260px;
@@ -50,8 +51,21 @@
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://images.unsplash.com/uploads/1411599070526e808c923/239f12cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
+    background-image: url("https://images.unsplash.com/photo-1519085731353-fb9924fadee7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
   }
+  input {
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 5px 156px;
+  }
+  button{
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+  
   .header .search-container button {
     float: right;
     border-radius: 15px;
@@ -70,12 +84,16 @@
   
 
 .footer {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     background: black;
     display: flex;
   flex-direction: row;
-  padding-left: 20px;
-  justify-content:space-between; 
+  padding-left: 30px;
+  
+ }
+
+ .logo-image-social-intagram{
+   padding-left: 20px;
  }
   
