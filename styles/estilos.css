@@ -41,7 +41,7 @@ body{
     color: white;
     background: transparent;
     border: 1px solid black;
-    background-image: url(/bedutravel/images/buscar.png);
+    background-image: url(/images/buscar.png);
     background-size: 28px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -87,14 +87,14 @@ footer p{
     margin: 0 10px;
 }
 .social-link.twitter{
-    background-image: url(/bedutravel/images/twitter.svg);
+    background-image: url(/images/twitter.svg);
     background-size: 50px 50px;
 }
 .social-link.facebook{
-    background-image: url(/bedutravel/images/facebook.svg);
+    background-image: url(/images/facebook.svg);
     background-size: 50px 50px;
 }
 .social-link.instagram{
-    background-image: url(/bedutravel/images/instagram.svg);
+    background-image: url(/images/instagram.svg);
     background-size: 50px 50px;
 }
