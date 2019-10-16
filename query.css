@@ -1,0 +1,43 @@
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .bg-primary {
+        background-color: #007bff!important;
+        margin-bottom: -3px;
+      }
+
+      .carousel-caption{
+        display: none;
+      }
+    
+      .grid-container {
+        grid-template-columns: auto auto auto;
+        padding: 100px;
+      }
+
+       .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .text-wrapper{
+
+        text-align: center;
+        padding: 100px;
+      }
+      
+      .grid-container-card {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        padding: 10px;
+        justify-content: center;
+      }
+      .grid-item-card {
+      
+        padding: 20px;
+        font-size: 30px;
+        box-sizing: border-box;
+      }
+      
+  }
+  
